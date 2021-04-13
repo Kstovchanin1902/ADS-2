@@ -36,7 +36,6 @@ int countPairs3(int *arr, int len, int value) {
         left=med-1;
         right=med+1;
         if (arr[i]+arr[med]==value){
-          cout<<arr[i]<<" + "<<arr[med]<<" == ";
           if (i!=med) {
             count++;
           }
